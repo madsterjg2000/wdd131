@@ -32,7 +32,9 @@ footer{
     grid-column: 1/4;
 }
 
-
+.left-sidebar, .right-sidebar {
+    padding: 1rem;
+}
 
 
 
