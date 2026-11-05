@@ -27,7 +27,9 @@ main h1 {
     text-align: center;
 }
 
-
+main h2{
+    background-color: mediumpurple;
+}
 
 footer {
     background-color: #633c94;
