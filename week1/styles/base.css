@@ -1,16 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
 header span {
+    display: block;
     background-color: #633c94;
     color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 header nav {
     background-color: purple;
-
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
  header nav a {
     color: white;
  }
+
+
+main h1 {
+    text-align: center;
+}
+
+
 
 footer {
     background-color: #633c94;
