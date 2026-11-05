@@ -1,3 +1,22 @@
+header span {
+    background-color: #633c94;
+    color: white;
+}
+
+header nav {
+    background-color: purple;
+
+    
+}
+ header nav a {
+    color: white;
+ }
+
+footer {
+    background-color: #633c94;
+    color: white;
+}
+
 
 
 
