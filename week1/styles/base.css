@@ -16,12 +16,17 @@ header nav {
     background-color: purple;
     display: flex;
     align-items: center;
-    justify-content: center;
+
 
 }
 
 header ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 nav a {
