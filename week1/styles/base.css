@@ -83,14 +83,15 @@ main h2{
 }
 .card li {
 
-    padding: 2px;
+    padding:  1px 13px 1px ;
     margin-bottom: 12px;
 }
 
 .me{
     display: flex;
     align-items: flex-start;
-    gap: 15px;
+    gap: 9px;
+    padding: 15px ;
 
 }
 .country {
