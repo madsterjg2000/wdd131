@@ -15,13 +15,37 @@ header span {
 header nav {
     background-color: purple;
     display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-}
- header nav a {
-    color: white;
- }
 
+}
+
+header ul{
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+
+ }
+nav a:hover {
+    text-decoration: overline;
+}
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }    
+}
+
+nav ul li {
+    flex: 1 0 auto;
+}
 
 main h1 {
     text-align: center;
