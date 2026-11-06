@@ -16,7 +16,7 @@ header nav {
     background-color: purple;
     display: flex;
     align-items: center;
-
+    justify-content: center;
 
 }
 
@@ -53,7 +53,7 @@ nav ul li {
 }
 
 main{
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     display: grid;
@@ -70,7 +70,8 @@ main h1 {
 
 main h2{
     background-color: mediumpurple;
-    padding: 3px;
+    padding: 5px 10px;
+    margin-top: 0;
 }
 
 .card{
@@ -80,9 +81,26 @@ main h2{
 
 }
 .me{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
 
 }
+.country {
+    grid-column: 1/3;
+    grid-row: 3;
+    margin-top: 25px;
+    padding-top: 15px;
+}
 
+.flag{
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
 footer {
     background-color: #633c94;
     color: white;
