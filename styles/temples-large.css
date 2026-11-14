@@ -5,6 +5,17 @@
     main h1{
         grid-column: 1/-1;
     }
-}
 
-const button
+    #button{
+        display: none;
+    
+    }
+
+    nav {
+        width: auto;
+    }
+    nav ul{
+        flex-direction: row;
+
+    }
+}
