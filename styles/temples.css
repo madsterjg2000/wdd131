@@ -8,9 +8,9 @@ header {
     display: flex;
     background-color: #e44ed2;
     color: white;
-    padding: 1px;
+    padding: 0px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     box-sizing: border-box;
     
 }
