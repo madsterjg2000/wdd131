@@ -106,7 +106,9 @@ main {
 
 }
 
-#button
+#button.show::before {
+    content: "x";
+}
 
 figure img{
     display: block;
