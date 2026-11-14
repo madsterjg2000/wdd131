@@ -20,6 +20,14 @@ header p {
 
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5px
+    
+}
 footer {
     background-color: #633c94;
     color: white;
