@@ -57,18 +57,19 @@ main {
 
 
 figure img{
-    display: flex;
+    display: block;
     width: 100%;
     height: 750px;
-
- 
+    object-fit: center;
+    
 
 }
 
 
 figcaption {
-
-
+text-align: center;
+font-size: 21px;
+margin-top: 1%;
 }
 
 
