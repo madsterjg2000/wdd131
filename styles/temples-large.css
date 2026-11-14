@@ -1,0 +1,8 @@
+@media screen and (mid-width:600px) {
+    main{
+        grid-template-columns: 3;
+    }
+    main h1{
+        grid-column: 1/-1;
+    }
+}
