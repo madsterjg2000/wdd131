@@ -19,7 +19,8 @@
         gap: 1;
     }
 
-    nav ul li {display: block;}
+    nav ul li {
+        display: block;}
 
 
 
