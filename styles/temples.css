@@ -14,7 +14,13 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     min-height: 3.5rem;
+    display: flex;
+    position: relative;
     
+}
+
+header:has(.show) p {
+    display: none;
 }
 
 header p {
@@ -31,10 +37,11 @@ nav {
 nav ul {
     flex-direction: column;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     gap: 2rem;
     text-align: center;
+    display: flex
 }
 
 nav a {
@@ -42,6 +49,7 @@ nav a {
     font-size: 17px;
     text-decoration: none;
     display: block;
+    font-size: 25px;
 }
 
 nav a:hover{
@@ -87,7 +95,8 @@ main {
 #button::before {content:"=";}
 #button.show::before {content: "x";}
 
-nav ul .show li {display: none;}
+nav ul li {display: none;}
+nav ul.show li {display: block;}
 
 figure img{
     display: block;
