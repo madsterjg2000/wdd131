@@ -10,7 +10,7 @@ header {
     color: white;
     padding: 1px;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     box-sizing: border-box;
     
 }
