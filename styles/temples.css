@@ -1,0 +1,12 @@
+
+header span {
+    display: block;
+    background-color: #e44ed2;
+    color: white;
+    padding: 19px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
