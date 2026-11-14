@@ -29,6 +29,7 @@ header p {
 }
 nav { 
     width: 100%;
+    display: flex;
 
 }
 
