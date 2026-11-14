@@ -16,6 +16,12 @@
     }
     nav ul{
         flex-direction: row;
-
+        gap: 1;
     }
+
+    nav ul li {display: block;}
+
+
+
+
 }
