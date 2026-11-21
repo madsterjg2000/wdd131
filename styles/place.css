@@ -23,12 +23,6 @@ h2 {
 
 }
 
-.weather img{
-    display: block;
-    margin: 0 auto 1rem auto;
-    width: 70px;
-    height: auto;
-}
 
 .data{
     margin-top: 0;
@@ -58,6 +52,30 @@ h2 {
     height:auto;
     display: block;
 }
+
+.weather{
+    padding: 5px;
+    text-align: center;
+}
+
+.weather h2{
+    margin-top: 0;
+    font-family: var(--font-family);
+
+}
+
+.weather img{
+    display: block;
+
+    margin: 0 auto 1rem auto;
+    width: 70px;
+    height: auto;
+}
+.weather-data{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
 
 body{
     padding: 0;
