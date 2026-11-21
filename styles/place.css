@@ -80,9 +80,13 @@ h2 {
     text-align: right;
     padding: 1px;
     font-weight: bold;
+
+}
+.weather-data td{
+    text-align: left;
+    padding: 5px;
     
 }
-
 body{
     padding: 0;
     margin: 0;
