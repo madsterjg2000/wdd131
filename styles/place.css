@@ -1,6 +1,6 @@
 :root {
-    font-family: "kite one";
-    background-color: #ab2523;
+    --font-family: "kite one";
+    --background-color: #ab2523;
 }
 
 
@@ -23,18 +23,6 @@ body{
     padding: 0;
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
