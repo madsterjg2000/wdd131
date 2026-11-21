@@ -85,7 +85,7 @@ h2 {
 .weather-data td{
     text-align: left;
     padding: 5px;
-    
+
 }
 body{
     padding: 0;
@@ -97,6 +97,7 @@ body{
 
 
 footer {
+    font-family: var(--font-family);
     background-color: var(--background-color);
     color: white;
     padding: 6px;
