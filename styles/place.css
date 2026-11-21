@@ -42,8 +42,16 @@ h2 {
     border-collapse: collapse;
 }
 
+.data-list th {
+    text-align: right;
+    padding: 1px;
+    font-weight: bold;
+}
 
-
+.data-list td {
+    text-align: left;
+    padding: 5px;
+}
 
 .hero-class img{
     width: 100%;
