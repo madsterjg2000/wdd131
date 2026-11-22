@@ -20,8 +20,16 @@
         background-color: white;
     }
 
+    .data h2 {
+        background-color: darkblue;
+        color: white;
+    }
 
 
+    .weather h2{
+        background-color: darkblue;
+        color: white;
+    }
     .weather img {
         display: none;
     }
