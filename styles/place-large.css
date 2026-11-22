@@ -9,12 +9,15 @@
         width: 260px;
         top: 2rem;
         left: 2rem;
+        background-color: white;
     }
     
     .weather{
         position: absolute;
         bottom: 2rem;
         right: 2rem;
+        padding: 1rem;
+        background-color: white;
     }
 
 
