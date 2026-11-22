@@ -11,6 +11,12 @@
         left: 2rem;
     }
     
+    .weather{
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+    }
+
 
 
     .weather img {
