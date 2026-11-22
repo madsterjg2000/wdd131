@@ -56,6 +56,7 @@ h2 {
 .weather{
     padding: 5px;
     text-align: center;
+    font-family: var(--font-family);
 }
 
 .weather h2{
