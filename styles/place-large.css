@@ -5,8 +5,14 @@
 
     .data{
         position: absolute;
+        padding: 1rem;
+        width: 260px;
+        top: 2rem;
+        left: 2rem;
     }
     
+
+
     .weather img {
         display: none;
     }
