@@ -2,5 +2,14 @@
     main {
         position: relative;
     }
+
+    .data{
+        position: absolute;
+    }
     
+    .weather h2::after {
+        content: "🌥️";
+    }
+
+
 }
