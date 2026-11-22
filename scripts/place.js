@@ -3,7 +3,7 @@ document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
 
 
-const temperature = 45;
+const temperature = 46;
 const windSpeed = 9;
 
 function calculateWindChill (temp,speed){
